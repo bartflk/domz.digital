@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "SequelSansHeavyDisp";
+  src: url("/fonts/Sequel Sans Heavy Disp.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-image: url("/img/image.png");
+  background-color: black;
+  min-width: 100%;
+  max-height: 100vh;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "SequelSansHeavyDisp";
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "SequelSansHeavyDisp";
+  color: #808080;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "SequelSansHeavyDisp";
+  color: white;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 35px;
+  font-family: "SequelSansHeavyDisp";
+  color: #808080;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: sans-serif;
+  color: #808080;
+  font-weight: 500;
+}
+
+p {
+  font-size: 16;
+  font-family: sans-serif;
+  color: #808080;
+}
+
+a {
+  color: #808080;
+}
+
+a:hover {
+  color: #808080;
+}
+
+section {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */
