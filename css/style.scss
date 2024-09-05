@@ -12,7 +12,7 @@ body {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-
+    min-height: 100vh;
     font-family: "SequelSansHeavyDisp"
 }
 
@@ -43,9 +43,9 @@ h1 {
   }
   
   p {
-    font-size: 16;
+    font-size: 18px;
     font-family: sans-serif;
-    color: #808080;
+    color: #dfdfdf;
   }
   a{
     color: #808080;
@@ -56,5 +56,12 @@ h1 {
   
   section{
     overflow: hidden;
+  }
+
+  .main{
+    padding-top: 3rem;
+  }
+  img{
+    max-width: 100%;
   }
   /*# sourceMappingURL=style.css.map */
